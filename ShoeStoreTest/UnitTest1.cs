@@ -14,7 +14,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 using ShoeStoreTest.Pages;
 
-namespace SpecSeleniumShoeStorePractice
+namespace UnitTest1
 {
     [TestFixture(typeof(ChromeDriver))]
     [TestFixture(typeof(InternetExplorerDriver))]
