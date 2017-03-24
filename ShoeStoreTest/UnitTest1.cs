@@ -47,7 +47,7 @@ namespace UnitTest1
                 month.Click();
                 WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
                 var isTitleMatchingMonth = wait.Until(ExpectedConditions.TitleContains(selectedMonth));
-                Assert.True(isTitleMatchingMonth);
+                Assert.True(isTitleMatchingMonth, "Title does not match the selected month");
                 StorePage storePage = new StorePage(_driver);
                
 
